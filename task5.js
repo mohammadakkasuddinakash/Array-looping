@@ -1,6 +1,7 @@
 const numbers = [ 1, 2, 3 ];
-numbers [0] = 99;
-console.log(numbers);
+const copyNumbers = [...numbers];
+copyNumbers [0] = 99;
+console.log(copyNumbers);
 
 // Task 5
 // Copy the given array into another array so that changing the copy does not affect the original.Change the first element of the copied array to 99.
